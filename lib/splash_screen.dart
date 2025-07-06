@@ -1,7 +1,7 @@
 import 'dart:async';
-import 'package:flipkart/bottomnavpage.dart';
-import 'package:flipkart/main.dart';
 import 'package:flutter/material.dart';
+
+import 'bottomnavpage.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -25,9 +25,9 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body:Container(
-        color: Colors.yellowAccent.shade200,
+        color: Color(0xFFFFE11B),
         child: Center(
-          child: Text('FlipKart',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.white),)
+          child: Image.asset("assets/images/logo1.png")
       )
       )
     );
